@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #00cec9, #0984e3);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    background-color: white;
+    color: #0984e3;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #dfe6e9;
+  }
+  
+  .features {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    max-width: 250px;
+    padding: 20px;
+    background-color: #f1f2f6;
+    border-radius: 10px;
+  }
+  
+  .depoimentos {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .depoimentos blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .precos {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: 200px;
+  }
+  
+  .card strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #00b894;
+  }
+  
+  .cadastro {
+    background-color: #dfe6e9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cadastro input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .cadastro button {
+    padding: 10px 20px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .cadastro button:hover {
+    background-color: #019875;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f2f6;
+    font-size: 0.9rem;
+  }
+  
